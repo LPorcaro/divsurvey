@@ -36,6 +36,7 @@
   Header
   ============================-->
   <header id="header">
+              <t><h2> Diversity in Electronic Music. A Survey.</h2>
 
 <!--     <div id="topbar">
       <div class="container">
@@ -58,25 +59,39 @@
       <div class="row justify-content-center align-self-center">
         <div class="col-md-6 intro-info order-md-first order-last">
 
-          <h2> Diversity in Electronic Music</h2>
+          
 
-          This survey is part of the research on music diversity of Lorenzo Porcaro, PhD student at Universitat Pompeu Fabra, and is part of the TROMPA project directed by Emilia Gómez.
+          This survey is part of the research on music diversity of <a href="https://lorenzoporcaro.wordpress.com/"> Lorenzo Porcaro</a>, PhD student at <a href="https://www.upf.edu/web/mtg/"> Universitat Pompeu Fabra</a>, and is part of the TROMPA project directed by Dr. Emilia Gómez.
 
-          The survey takes 30-35 minutes, participation is voluntary, and you can leave the survey at any time.
+          If you choose to participate, we will ask first ask you some optional questions about your background and your musical interests. Then, we will show you lists of music tracks and artists, and ask you to compare them and decide which one is more varied or diverse. 
 
-          If you choose to participate, we will ask first ask you some optional questions about your background and your musical interests. Then, we will show you lists of music tracks and artists, and ask you to compare them and decide which one is more varied or diverse.
+          <a href="{% url 'randomizer' %}" class="btn-get-started scrollto">Go to the survey!</a><br>
 
-        <div>
-          <br>
-          <a href="{% url 'randomizer' %}" class="btn-get-started scrollto">[EN] Go to the survey!</a><br>
-          <a href="{% url 'randomizer' %}" class="btn-get-started scrollto">[ES] ¡Ir a la encuesta!</a><br>
-          <a href="{% url 'randomizer' %}" class="btn-get-started scrollto">[IT] Vai all'inchiesta!</a>
-        </div>
+
+        <br>
+
+        <b>
+        Esta encuesta es parte de la investigación sobre la diversidad musical realizada por Lorenzo Porcaro, un estudiante de doctorado de la Universitat Pompeu Fabra, dentro del proyecto TROMPA dirigido por Dra. Emilia Gómez. Si decides participar, antes te preguntaremos unas preguntas opcionales sobre el tuyo background y tus itereses musicales. Después, te enseñaremos unas listas de canciones y artistas, y te preguntaremos de compararlas, eligiendo cuáles te parecen más variadas o diversas.      
+
+          <a href="{% url 'randomizer' %}" class="btn-get-started scrollto"> ¡Ir a la encuesta!</a><br>
+
+        </b>
+
+        <br>
+        <i>
+          Questa indagine fa parte della ricerca sulla diversitá musicale condotta da Lorenzo Porcaro, studente di dottorato alla Universitat Pompeu Fabra, ed è parte del progetto TROMPA diretto da Dr. Emilia Gómez.
+
+          Se scegli di participare, prima ti saranno chieste una serie di domande opzionali sul tuo background e sui tuoi interessi musicali. Dopo, ti mostreremo delle liste di canzoni e artisti, e ti chiederemo di compararle, dicendoci quali ti sembrano piú varie o diverse. 
+
+          <a href="{% url 'randomizer' %}" class="btn-get-started scrollto"> Vai all'inchiesta!</a><br>
+
+        </i>
+
 
         </div>
   
         <div class="col-md-6 intro-img order-md-last order-first">
-          <img src='{% static "img/cover.jpg" %}' alt="" class="img-fluid">
+          <img src='{% static "img/pad.jpg" %}' alt="" class="img-fluid">
         </div>
       </div>
 
@@ -91,7 +106,7 @@
     ============================-->
     <section id="services" class="section-bg">
       <div class="container">
-
+        <br>
         <header class="section-header">
           <h3>Discover</h3>
         </header>
@@ -102,14 +117,14 @@
             <div class="box">
               <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="https://www.youtube.com/playlist?list=PLO_ftEbUcr_exmEWO1Y8EYEEcK6jwlwdJ">YouTube</a></h4>
-              <p class="description">Listen to the track shown in the survey in YouTube.</p>
+              <p class="description">Listen to the tracks shown in the survey in YouTube.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
               <h4 class="title"><a href="https://open.spotify.com/playlist/1WAdvDkS6JNKcGlmseLXJC?si=YKt5h2FUQoOn6HNK0CT9Gg">Spotify</a></h4>
-              <p class="description">Listen to the track shown in the survey in Spotify.</p>
+              <p class="description">Listen to the tracks shown in the survey in Spotify.</p>
             </div>
           </div>
 
@@ -117,7 +132,7 @@
             <div class="box">
               <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
               <h4 class="title"><a href="https://soundcloud.com/plorenzzz/sets/diversity-in-electronic-music">SoundCloud</a></h4>
-              <p class="description">Listen to the track shown in the survey in SoundCloud.</p>
+              <p class="description">Listen to the tracks shown in the survey in SoundCloud.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
@@ -189,7 +204,26 @@
         </ul>
 
       </div>
+      <br>
+      <br>
     </section><!-- #faq -->
+
+
+    <section id="new">
+      <div class="container d-flex h-20">
+
+        <div class="col-md-10 intro-info order-md-first order-last">
+          This project has received funding from the European Union's Horizon 2020 research and innovation programme H2020-EU.3.6.3.1. - <i> Study European heritage, memory, identity, integration and cultural interaction and translation, including its representations in cultural and scientific collections, archives and museums, to better inform and understand the present by richer interpretations of the past </i> under grant agreement No 770376.
+        </div>
+        <br>
+        <div class="col-md-2 intro-img order-md-last order-first">
+          <img src='{% static "img/eu-flag.jpg" %}' alt="" class="img-fluid">
+        </div>
+      </div>
+      <br>
+      
+    </section><!-- #faq -->
+
 
   </main>
 
