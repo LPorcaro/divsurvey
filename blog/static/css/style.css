@@ -12,7 +12,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -39,10 +39,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 0px 0;
   padding: 0;
+  color: #ff0000;
 }
 
 /* Back to top button */
@@ -50,7 +51,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  background: #ff0000;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -154,11 +155,11 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 110px;
+  height: 120px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  padding: 5px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -169,7 +170,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 70px;
+  height: auto;
   padding: 15px 0;
   background-color: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
@@ -192,7 +193,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #413e66;
+  color: #  ;
   text-decoration: none;
 }
 
@@ -212,14 +213,13 @@ h6 {
 
 #intro {
   width: 100%;
-  height: 100vh;
-  position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  height: 120vh;
+  background: #ffefdf url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  color: #ffd7ad;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -232,16 +232,16 @@ h6 {
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 32px;
-  border-radius: 4px;
+  border-radius: 6px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
+  background: #ff0000;
   color: #fff;
 }
 
@@ -249,6 +249,20 @@ h6 {
 #intro .intro-info .btn-services:hover {
   background: #0a98c0;
 }
+
+
+#intro .box {
+  padding: 5px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0px;
+  margin: 0 0px 0px 0px;
+  background: #fff;
+  box-shadow: 5 5px 5px 5 rgba(68, 88, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -281,7 +295,7 @@ h6 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -477,7 +491,7 @@ h6 {
   text-align: center;
   font-weight: 700;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
 }
 
 .section-header p {
@@ -493,7 +507,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #f5f8fd;
+  background: #ffefdf;
 }
 
 /* About Us Section
@@ -580,11 +594,11 @@ h6 {
 --------------------------------*/
 
 #services {
-  padding: 60px 0 40px 0;
+  padding: 0px 0 0px 0;
 }
 
 #services .box {
-  padding: 30px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -1222,7 +1236,7 @@ h6 {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f5f8fd;
+  background: #fffdd8;
 }
 
 #footer .footer-top .footer-info {
@@ -1468,7 +1482,7 @@ h6 {
 
 @media (min-width: 992px) {
   #intro .intro-info {
-    padding-top: 80px;
+    padding-top: 0px;
   }
 
   #testimonials .testimonial-item p {

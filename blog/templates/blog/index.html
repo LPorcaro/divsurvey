@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700|Roboto+Mono:100,200,300,400,500,600,1000" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href='{% static "lib/bootstrap/css/bootstrap.min.css"%}'   rel="stylesheet">
@@ -21,7 +21,7 @@
   <link href='{% static "lib/lightbox/css/lightbox.min.css"%}'  rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href='{% static "css/style.css"}'  rel="stylesheet">
+  <link href='{% static "css/style.css" %}'  rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: Rapid
@@ -32,24 +32,13 @@
 </head>
 
 <body>
-  <!--==========================
-  Header
-  ============================-->
-  <header id="header">
-              <t><h2> Diversity in Electronic Music. A Survey.</h2>
-
-<!--     <div id="topbar">
+  <section id="header">
       <div class="container">
-        <div class="social-links">
-          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <div class="justify-content-center align-self-center">
+          <h2> Diversity in Electronic Music.</h2>
         </div>
       </div>
-    </div> -->
-
-  </header><!-- #header -->
+  </section>
 
   <!--==========================
     Intro Section
@@ -59,47 +48,44 @@
       <div class="row justify-content-center align-self-center">
         <div class="col-md-6 intro-info order-md-first order-last">
 
+          This survey is part of the research on music diversity of <a href="https://lorenzoporcaro.wordpress.com/">Lorenzo Porcaro</a>, PhD student at the Universitat Pompeu Fabra.
+
+          If you choose to participate, you will discover some electronic music from all around the world. 
+
+          <br><br>
+          <a href="{% url 'randomizer_en' %}" class="btn-get-started scrollto">Go to the survey!</a><br>
+
+          <br>
+
+          Esta encuesta es parte de la investigación sobre la diversidad musical realizada por Lorenzo Porcaro, un estudiante de doctorado de la Universitat Pompeu Fabra.
+
+          Si decides participar, descubrirás un poco de música electrónica de todo el mundo.    
           
-
-          This survey is part of the research on music diversity of <a href="https://lorenzoporcaro.wordpress.com/"> Lorenzo Porcaro</a>, PhD student at <a href="https://www.upf.edu/web/mtg/"> Universitat Pompeu Fabra</a>, and is part of the TROMPA project directed by Dr. Emilia Gómez.
-
-          If you choose to participate, we will ask first ask you some optional questions about your background and your musical interests. Then, we will show you lists of music tracks and artists, and ask you to compare them and decide which one is more varied or diverse. 
-
-          <a href="{% url 'randomizer' %}" class="btn-get-started scrollto">Go to the survey!</a><br>
+          <br><br>
+          <a href="{% url 'randomizer_es' %}" class="btn-get-started scrollto"> ¡Ir a la encuesta!</a><br>
 
 
-        <br>
+          <br>
+            Questa indagine fa parte della ricerca sulla diversitá musicale condotta da Lorenzo Porcaro, studente di dottorato della Universitat Pompeu Fabra.
 
-        <b>
-        Esta encuesta es parte de la investigación sobre la diversidad musical realizada por Lorenzo Porcaro, un estudiante de doctorado de la Universitat Pompeu Fabra, dentro del proyecto TROMPA dirigido por Dra. Emilia Gómez. Si decides participar, antes te preguntaremos unas preguntas opcionales sobre el tuyo background y tus itereses musicales. Después, te enseñaremos unas listas de canciones y artistas, y te preguntaremos de compararlas, eligiendo cuáles te parecen más variadas o diversas.      
-
-          <a href="{% url 'randomizer' %}" class="btn-get-started scrollto"> ¡Ir a la encuesta!</a><br>
-
-        </b>
-
-        <br>
-        <i>
-          Questa indagine fa parte della ricerca sulla diversitá musicale condotta da Lorenzo Porcaro, studente di dottorato alla Universitat Pompeu Fabra, ed è parte del progetto TROMPA diretto da Dr. Emilia Gómez.
-
-          Se scegli di participare, prima ti saranno chieste una serie di domande opzionali sul tuo background e sui tuoi interessi musicali. Dopo, ti mostreremo delle liste di canzoni e artisti, e ti chiederemo di compararle, dicendoci quali ti sembrano piú varie o diverse. 
-
-          <a href="{% url 'randomizer' %}" class="btn-get-started scrollto"> Vai all'inchiesta!</a><br>
-
-        </i>
-
+            Se scegliete di partecipare, scoprirete un po' di musica elettronica da tutto il mondo.
+            <br><br>
+            <a href="{% url 'randomizer_it' %}" class="btn-get-started scrollto"> Vai all'inchiesta!</a><br>
 
         </div>
   
-        <div class="col-md-6 intro-img order-md-last order-first">
-          <img src='{% static "img/pad.jpg" %}' alt="" class="img-fluid">
+        <div class="col-md-5 order-md-last order-first">
+          <div class="box">
+            <img src='{% static "img/pad2.jpg" %}' alt="" class="img-fluid">
+          </div>
         </div>
+
       </div>
 
     </div>
   </section><!-- #intro -->
 
   <main id="main">
-
 
     <!--==========================
       Services Section
@@ -108,19 +94,19 @@
       <div class="container">
         <br>
         <header class="section-header">
-          <h3>Discover</h3>
+          <h3>Discover</h3><br>
         </header>
 
         <div class="row">
 
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.2s">
             <div class="box">
               <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="https://www.youtube.com/playlist?list=PLO_ftEbUcr_exmEWO1Y8EYEEcK6jwlwdJ">YouTube</a></h4>
               <p class="description">Listen to the tracks shown in the survey in YouTube.</p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.2s">
             <div class="box">
               <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
               <h4 class="title"><a href="https://open.spotify.com/playlist/1WAdvDkS6JNKcGlmseLXJC?si=YKt5h2FUQoOn6HNK0CT9Gg">Spotify</a></h4>
@@ -128,14 +114,14 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.2s">
             <div class="box">
               <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
               <h4 class="title"><a href="https://soundcloud.com/plorenzzz/sets/diversity-in-electronic-music">SoundCloud</a></h4>
               <p class="description">Listen to the tracks shown in the survey in SoundCloud.</p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.2s">
             <div class="box">
               <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
               <h4 class="title"><a href="https://drive.google.com/file/d/1AgidlBO1rDVlS7srv4Kcog97fwqB_3il/view?usp=sharing">Bandcamp</a></h4>
@@ -143,14 +129,14 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
             <div class="box">
               <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
               <h4 class="title"><a href="https://www.upf.edu/web/mtg/">MTG</a></h4>
-              <p class="description">Discover more about the Music Technology Group at the Universitat Pompeu Fabra in Barcelona.</p>
+              <p class="description">Discover more about the Music Technology Group in Barcelona.</p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
             <div class="box">
               <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
               <h4 class="title"><a href="https://trompamusic.eu/">TROMPA</a></h4>
@@ -210,8 +196,7 @@
 
 
     <section id="new">
-      <div class="container d-flex h-20">
-
+      <div class="container d-flex">
         <div class="col-md-10 intro-info order-md-first order-last">
           This project has received funding from the European Union's Horizon 2020 research and innovation programme H2020-EU.3.6.3.1. - <i> Study European heritage, memory, identity, integration and cultural interaction and translation, including its representations in cultural and scientific collections, archives and museums, to better inform and understand the present by richer interpretations of the past </i> under grant agreement No 770376.
         </div>
@@ -263,11 +248,9 @@
   <script src='{% static "lib/owlcarousel/owl.carousel.min.js"%}' ></script>
   <script src='{% static "lib/isotope/isotope.pkgd.min.js"%}' ></script>
   <script src='{% static "lib/lightbox/js/lightbox.min.js"%}' ></script>
-  <!-- Contact Form JavaScript File -->
-  <script src='{% static"contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src='{% static "js/main.js"></script>
+  <script src='{% static "js/main.js" %}'></script>
 
 </body>
 </html>

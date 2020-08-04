@@ -10,12 +10,31 @@ def post_list(request):
 
 
 
-def randomizer(request):
+def randomizer_en(request):
+    url1 = "https://google.com"
+    url2 = "https://wikipedia.org"
+    url3 = "https://twitter.com"
+    url4 = ""
+
+    url_list = [url1, url2, url3, url4]
+
+    return redirect(random.choice(url_list))
+
+def randomizer_es(request):
     url1 = "https://google.com"
     url2 = "https://wikipedia.org"
     url3 = "https://twitter.com"
 
-    url_list = [url1, url2, url3]
+    url_list = [url1, url2, url3, url4]
+
+    return redirect(random.choice(url_list))
+
+def randomizer_it(request):
+    url1 = "https://google.com"
+    url2 = "https://wikipedia.org"
+    url3 = "https://twitter.com"
+
+    url_list = [url1, url2, url3, url4]
 
     return redirect(random.choice(url_list))
 
