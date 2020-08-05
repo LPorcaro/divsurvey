@@ -40,7 +40,7 @@ h4,
 h5,
 h6 {
   font-family: "Roboto Mono", sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   margin: 0 0 0px 0;
   padding: 0;
   color: #ff0000;
@@ -489,7 +489,7 @@ h6 {
   font-size: 36px;
   color: #413e66;
   text-align: center;
-  font-weight: 700;
+  font-weight: 300;
   position: relative;
   font-family: "Roboto Mono", sans-serif;
 }
