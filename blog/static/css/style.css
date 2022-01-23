@@ -744,10 +744,12 @@ h6 {
 --------------------------------*/
 
 #features {
+  background: #ffefdf;
   padding: 80px 0;
 }
 
 #features h4 {
+  background: #ffefdf;
   font-weight: 600;
   font-size: 24px;
 }

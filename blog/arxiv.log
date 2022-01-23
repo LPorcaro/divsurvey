@@ -1,0 +1,715 @@
+TeX log appears below
+[verbose]: Creating arXiv submission AutoTeX object
+[verbose]: *** Using TeX Live 2016 ***
+[verbose]: Calling arXiv submission AutoTeX process
+[verbose]: TeX/AutoTeX.pm: admin_timeout = minion
+[verbose]: <pr-lfm1b.pdf> is of type 'PDF'.
+[verbose]: <main.tex> is of type 'PDFLATEX'.
+[verbose]: <bd-lfm360k.pdf> is of type 'PDF'.
+[verbose]: <pr-lfm360k.pdf> is of type 'PDF'.
+[verbose]: <acmart.cls> is of type 'TeX auxiliary'.
+[verbose]: <main.bib> is of type 'BiBTeX'.
+[verbose]: <main.bbl> is of type 'TeX auxiliary'.
+[verbose]: <bd-lfm1b.pdf> is of type 'PDF'.
+[verbose]: ~~~~~~~~~~~ Processing file 'main.tex'
+[verbose]: TEXMFCNF is unset.
+[verbose]: ~~~~~~~~~~~ Running hpdflatex for the first time ~~~~~~~~
+[verbose]: Running: "(export HOME=/tmp PATH=/texlive/2016/bin/arch:/bin; cd /submissions/3352789/ && pdflatex 'main.tex' < /dev/null)" 2>&1
+[verbose]: This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./acmart.cls
+Document Class: acmart 2020/04/30 v1.71 Typesetting articles for the Associatio
+n for Computing Machinery
+(/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex))
+(/texlive/2016/texmf-dist/tex/generic/iftex/iftex.sty)
+(/texlive/2016/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2015/03/04 v2.20.2
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
+(/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/texlive/2016/texmf-dist/tex/latex/oberdiek/refcount.sty
+(/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+(/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty))
+(/texlive/2016/texmf-dist/tex/latex/totpages/totpages.sty
+(/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty))
+(/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
+(/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty)
+(/texlive/2016/texmf-local/tex/latex/natbib/natbib.sty
+
+This is natbib version 8.31
+*************************************************************
+!!WARNING!! !!WARNING!! !!WARNING!! !!WARNING!!
+
+This version (v8.31) of natbib is stricter in its formatting
+requirements for bibitem entries than the previous version
+used at arXiv (v7.1).
+
+If your submission encounters a problem see
+
+http://arXiv.org/help/faq/texlive
+
+and the natbib documentation at
+
+http://www.ctan.org/tex-archive/macros/latex/contrib/natbib/
+
+for explanation and adjust your submission accordingly.
+The arXiv team.
+*************************************************************
+
+) (/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/texlive/2016/texmf-config/tex/latex/latexconfig/hyperref.cfg)
+(/texlive/2016/texmf-dist/tex/latex/hyperref/puenc.def)
+(/texlive/2016/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+(/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+(/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty)
+(/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+(/texlive/2016/texmf-config/tex/latex/latexconfig/geometry.cfg))
+(/texlive/2016/texmf-dist/tex/latex/ncctools/manyfoot.sty
+(/texlive/2016/texmf-dist/tex/latex/ncctools/nccfoots.sty))
+(/texlive/2016/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/texlive/2016/texmf-dist/tex/latex/cmap/cmap.sty)
+(/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/texlive/2016/texmf-dist/tex/latex/base/t1enc.def)<<t1.cmap>>)
+(/texlive/2016/texmf-dist/tex/latex/libertine/libertine.sty
+(/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/texlive/2016/texmf-dist/tex/latex/mweights/mweights.sty)
+(/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty)
+(/texlive/2016/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/texlive/2016/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe))
+(/texlive/2016/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.514, 2016/11/18 Math macros based on txfonts (msharpe)
+(/texlive/2016/texmf-dist/tex/generic/kastrup/binhex.tex))
+(/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+(/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty))
+(/texlive/2016/texmf-dist/tex/latex/float/float.sty)
+(/texlive/2016/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(/texlive/2016/texmf-arxiv/tex/latex/fancyhdr/fancyhdr.sty)
+Special comment 'acks'
+(/texlive/2016/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd))
+(/texlive/2016/texmf-dist/tex/latex/makecell/makecell.sty
+(/texlive/2016/texmf-dist/tex/latex/tools/array.sty))
+
+! LaTeX Error: Option clash for package hyperref.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type H <return> for immediate help.
+...
+
+l.55 \begin
+{document}
+?
+! Emergency stop.
+...
+
+l.55 \begin
+{document}
+! ==> Fatal error occurred, no output PDF file produced!
+Transcript written on main.log.
+
+[verbose]: pdflatex 'main.tex' failed.
+[verbose]: TEXMFCNF is unset.
+[verbose]: ~~~~~~~~~~~ Running pdflatex for the first time ~~~~~~~~
+[verbose]: Running: "(export HOME=/tmp PATH=/texlive/2016/bin/arch:/bin; cd /submissions/3352789/ && pdflatex 'main.tex' < /dev/null)" 2>&1
+[verbose]: This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./acmart.cls
+Document Class: acmart 2020/04/30 v1.71 Typesetting articles for the Associatio
+n for Computing Machinery
+(/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex))
+(/texlive/2016/texmf-dist/tex/generic/iftex/iftex.sty)
+(/texlive/2016/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2015/03/04 v2.20.2
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
+(/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/texlive/2016/texmf-dist/tex/latex/oberdiek/refcount.sty
+(/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
+(/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty))
+(/texlive/2016/texmf-dist/tex/latex/totpages/totpages.sty
+(/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty))
+(/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
+(/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty)
+(/texlive/2016/texmf-local/tex/latex/natbib/natbib.sty
+
+This is natbib version 8.31
+*************************************************************
+!!WARNING!! !!WARNING!! !!WARNING!! !!WARNING!!
+
+This version (v8.31) of natbib is stricter in its formatting
+requirements for bibitem entries than the previous version
+used at arXiv (v7.1).
+
+If your submission encounters a problem see
+
+http://arXiv.org/help/faq/texlive
+
+and the natbib documentation at
+
+http://www.ctan.org/tex-archive/macros/latex/contrib/natbib/
+
+for explanation and adjust your submission accordingly.
+The arXiv team.
+*************************************************************
+
+) (/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/texlive/2016/texmf-config/tex/latex/latexconfig/hyperref.cfg)
+(/texlive/2016/texmf-dist/tex/latex/hyperref/puenc.def)
+(/texlive/2016/texmf-dist/tex/latex/url/url.sty))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+(/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+(/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+(/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty)
+(/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+(/texlive/2016/texmf-config/tex/latex/latexconfig/geometry.cfg))
+(/texlive/2016/texmf-dist/tex/latex/ncctools/manyfoot.sty
+(/texlive/2016/texmf-dist/tex/latex/ncctools/nccfoots.sty))
+(/texlive/2016/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/texlive/2016/texmf-dist/tex/latex/cmap/cmap.sty)
+(/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/texlive/2016/texmf-dist/tex/latex/base/t1enc.def)<<t1.cmap>>)
+(/texlive/2016/texmf-dist/tex/latex/libertine/libertine.sty
+(/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/texlive/2016/texmf-dist/tex/latex/mweights/mweights.sty)
+(/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty)
+(/texlive/2016/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/texlive/2016/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe))
+(/texlive/2016/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.514, 2016/11/18 Math macros based on txfonts (msharpe)
+(/texlive/2016/texmf-dist/tex/generic/kastrup/binhex.tex))
+(/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+(/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty))
+(/texlive/2016/texmf-dist/tex/latex/float/float.sty)
+(/texlive/2016/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(/texlive/2016/texmf-arxiv/tex/latex/fancyhdr/fancyhdr.sty)
+Special comment 'acks'
+(/texlive/2016/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd))
+(/texlive/2016/texmf-dist/tex/latex/makecell/makecell.sty
+(/texlive/2016/texmf-dist/tex/latex/tools/array.sty))
+(/texlive/2016/texmf-dist/tex/latex/preprint/balance.sty)
+Excluding comment 'screenonly' Include comment 'printonly'
+Include comment 'anonsuppress'
+No file main.aux.
+(/texlive/2016/texmf-dist/tex/latex/newtx/omlnxlmi.fd)
+(/texlive/2016/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/texlive/2016/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/texlive/2016/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+(/texlive/2016/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd)<<ot1.c
+map>><<oml.cmap>> (/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/texlive/2016/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/texlive/2016/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/texlive/2016/texmf-dist/tex/latex/newtx/untxsyc.fd)
+ABD: EveryShipout initializing macros
+(/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/texlive/2016/texmf-config/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* detected driver: pdftex
+(/texlive/2016/texmf-dist/tex/latex/upquote/upquote.sty)
+
+Class acmart Warning: Do not put several authors in the same \author macro! on
+input line 69.
+
+Excluding 'CCSXML' comment.
+(/texlive/2016/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd)
+(/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+Overfull \hbox (2.04883pt too wide) in paragraph at lines 150--150
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) alised and mean-ing-ful rec-om-men-da-tions
+of items (i.e. songs, playlists
+(/texlive/2016/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `superscript' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `superscript' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `superscript' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `superscript' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref) removing `math shift' on input line 150.
+
+
+Package natbib Warning: Citation `Jannach2019' on page 1 undefined on input lin
+e 153.
+
+
+Package natbib Warning: Citation `Gunawardana2015' on page 1 undefined on input
+line 157.
+
+
+Package natbib Warning: Citation `McNee06' on page 1 undefined on input line 15
+9.
+
+
+Package natbib Warning: Citation `West2019' on page 1 undefined on input line 1
+62.
+
+
+Package natbib Warning: Citation `BaezaYates2018' on page 1 undefined on input
+line 162.
+
+
+Package natbib Warning: Citation `Serra2013' on page 1 undefined on input line
+162.
+
+
+Package natbib Warning: Citation `Holzapfel2018' on page 1 undefined on input l
+ine 162.
+
+
+Package natbib Warning: Citation `Salamon2019' on page 1 undefined on input lin
+e 162.
+
+
+Package natbib Warning: Citation `gomez2019' on page 1 undefined on input line
+162.
+
+
+Package natbib Warning: Citation `perez2019invisible' on page 1 undefined on in
+put line 164.
+
+
+Package natbib Warning: Citation `Beauvoir2015' on page 1 undefined on input li
+ne 173.
+
+
+Package natbib Warning: Citation `Millar2008' on page 1 undefined on input line
+175.
+
+
+Package natbib Warning: Citation `Tsintzou2018' on page 1 undefined on input li
+ne 178.
+
+
+Package natbib Warning: Citation `Tsintzou2018' on page 1 undefined on input li
+ne 180.
+
+
+Package natbib Warning: Citation `Zhao2017' on page 1 undefined on input line 1
+80.
+
+
+Package natbib Warning: Citation `Lin2019' on page 1 undefined on input line 18
+0.
+
+
+Package natbib Warning: Citation `Mansoury2019' on page 1 undefined on input li
+ne 180.
+
+
+Package natbib Warning: Citation `Lin2019' on page 1 undefined on input line 18
+0.
+
+
+Package natbib Warning: Citation `Harper2015' on page 1 undefined on input line
+180.
+
+
+Package natbib Warning: Citation `Celma2010' on page 1 undefined on input line
+183.
+
+
+Package natbib Warning: Citation `Schedl2016' on page 1 undefined on input line
+183.
+
+
+Package natbib Warning: Citation `Lin2019' on page 1 undefined on input line 18
+5.
+
+
+Package natbib Warning: Citation `Millar2008' on page 1 undefined on input line
+187.
+
+
+Package natbib Warning: Citation `AngladaTort2019' on page 1 undefined on input
+line 187.
+
+
+LaTeX Warning: Reference `sec:relatedwork' on page 1 undefined on input line 19
+0.
+
+
+LaTeX Warning: Reference `subsec:lfm1bdataset' on page 1 undefined on input lin
+e 192.
+
+
+LaTeX Warning: Reference `subsec:lfm360kdataset' on page 1 undefined on input l
+ine 192.
+
+
+LaTeX Warning: Reference `sec:methodology' on page 1 undefined on input line 19
+2.
+
+
+LaTeX Warning: Reference `sec:results' on page 1 undefined on input line 192.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 1 undefined on input line 192
+.
+
+
+Overfull \hbox (3.64934pt too wide) in paragraph at lines 190--193
+[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) The pa-per is struc-tured as fol-lows. Se
+c-tion [] pro-vides an overview
+[1.1{/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `BaezaYates2018' on page 2 undefined on input
+line 198.
+
+
+Package natbib Warning: Citation `Barocas2014' on page 2 undefined on input lin
+e 198.
+
+
+Package natbib Warning: Citation `Bozdag2013' on page 2 undefined on input line
+198.
+
+
+Package natbib Warning: Citation `Jannach2015' on page 2 undefined on input lin
+e 198.
+
+
+Package natbib Warning: Citation `Cramer2018' on page 2 undefined on input line
+198.
+
+
+Package natbib Warning: Citation `Celma2010' on page 2 undefined on input line
+201.
+
+
+Package natbib Warning: Citation `Bauer2019' on page 2 undefined on input line
+201.
+
+
+Package natbib Warning: Citation `Kowald2020' on page 2 undefined on input line
+201.
+
+
+Package natbib Warning: Citation `Celma2010' on page 2 undefined on input line
+205.
+
+
+Package natbib Warning: Citation `Park2008' on page 2 undefined on input line 2
+05.
+
+
+Package natbib Warning: Citation `Abdollahpouri2019' on page 2 undefined on inp
+ut line 205.
+
+
+Package natbib Warning: Citation `Kowald2020' on page 2 undefined on input line
+205.
+
+
+Package natbib Warning: Citation `Ferraro2019' on page 2 undefined on input lin
+e 207.
+
+
+LaTeX Warning: Reference `subsec:bias' on page 2 undefined on input line 210.
+
+
+Package natbib Warning: Citation `Tsintzou2018' on page 2 undefined on input li
+ne 212.
+
+
+Package natbib Warning: Citation `Lin2019' on page 2 undefined on input line 21
+4.
+
+
+Package natbib Warning: Citation `Ekstrand2018' on page 2 undefined on input li
+ne 221.
+
+
+Package natbib Warning: Citation `Ekstrand2018b' on page 2 undefined on input l
+ine 223.
+
+
+Package natbib Warning: Citation `Edizel2019' on page 2 undefined on input line
+227.
+
+
+Package natbib Warning: Citation `Zhu2018' on page 2 undefined on input line 22
+7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+Package natbib Warning: Citation `Aguiar2018' on page 2 undefined on input line
+230.
+
+
+Package natbib Warning: Citation `AngladaTort2019' on page 2 undefined on input
+line 234.
+
+
+Package natbib Warning: Citation `Millar2008' on page 2 undefined on input line
+236.
+
+
+Package natbib Warning: Citation `Schedl2016' on page 2 undefined on input line
+245.
+
+
+Package natbib Warning: Citation `Jawaheer2010' on page 2 undefined on input li
+ne 247.
+
+
+Package natbib Warning: Citation `Dean2020' on page 2 undefined on input line 2
+47.
+
+
+LaTeX Warning: Reference `tab:recap' on page 2 undefined on input line 260.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Swartz2002' on page 2 undefined on input line
+330.
+
+
+LaTeX Warning: Reference `tab:recap' on page 2 undefined on input line 336.
+
+[2.2]
+
+LaTeX Warning: Reference `sec:conclusion' on page 3 undefined on input line 341
+.
+
+
+LaTeX Warning: Reference `tab:top5' on page 3 undefined on input line 343.
+
+
+Package natbib Warning: Citation `Celma2010' on page 3 undefined on input line
+348.
+
+
+LaTeX Warning: Reference `tab:recap' on page 3 undefined on input line 356.
+
+
+LaTeX Warning: Reference `tab:recap' on page 3 undefined on input line 364.
+
+
+Underfull \vbox (badness 1383) has occurred while \output is active [3.3]
+
+Package natbib Warning: Citation `DiNoia2017' on page 4 undefined on input line
+389.
+
+
+Package natbib Warning: Citation `Kowald2020' on page 4 undefined on input line
+400.
+
+
+Package natbib Warning: Citation `Lin2019' on page 4 undefined on input line 40
+0.
+
+
+Package natbib Warning: Citation `Surprise' on page 4 undefined on input line 4
+02.
+
+
+Package natbib Warning: Citation `Yehuda2010' on page 4 undefined on input line
+409.
+
+
+Package natbib Warning: Citation `Luo2014' on page 4 undefined on input line 41
+1.
+
+
+Package natbib Warning: Citation `Canamares' on page 4 undefined on input line
+420.
+
+
+Package natbib Warning: Citation `Said2013ATR' on page 4 undefined on input lin
+e 422.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+
+LaTeX Warning: Reference `fig:distr' on page 4 undefined on input line 456.
+
+[4.4]
+
+LaTeX Warning: File `dist.pdf' not found on input line 471.
+
+
+! Package pdftex.def Error: File `dist.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type H <return> for immediate help.
+...
+
+l.471 ...ludegraphics[width=1\linewidth]{dist.pdf}
+
+?
+! Emergency stop.
+...
+
+l.471 ...ludegraphics[width=1\linewidth]{dist.pdf}
+
+! ==> Fatal error occurred, no output PDF file produced!
+Transcript written on main.log.
+
+[verbose]: pdflatex 'main.tex' failed.
+[verbose]: Removing (La)TeX AUX file called 'main.out' (1599143974 >= 1599143974)
+[verbose]: Removing (La)TeX AUX file called 'main.aux' (1599143974 >= 1599143974)
+[verbose]: 'htex' is not a valid TeX format; will ignore.
+[verbose]: TEXMFCNF is unset.
+[verbose]: ~~~~~~~~~~~ Running htex for the first time ~~~~~~~~
+[verbose]: Running: "(export HOME=/tmp PATH=/texlive/2016/bin/arch:/bin; cd /submissions/3352789/ && tex 'main.tex' < /dev/null)" 2>&1
+[verbose]: This is TeX, Version 3.14159265 (TeX Live 2016) (preloaded format=tex)
+(./main.tex
+! Undefined control sequence.
+l.1 \documentclass
+[sigconf,nonacm]{acmart}
+?
+! Emergency stop.
+l.1 \documentclass
+[sigconf,nonacm]{acmart}
+No pages of output.
+Transcript written on main.log.
+
+[verbose]: tex 'main.tex' failed.
+[verbose]: TEXMFCNF is unset.
+[verbose]: ~~~~~~~~~~~ Running tex for the first time ~~~~~~~~
+[verbose]: Running: "(export HOME=/tmp PATH=/texlive/2016/bin/arch:/bin; cd /submissions/3352789/ && tex 'main.tex' < /dev/null)" 2>&1
+[verbose]: This is TeX, Version 3.14159265 (TeX Live 2016) (preloaded format=tex)
+(./main.tex
+! Undefined control sequence.
+l.1 \documentclass
+[sigconf,nonacm]{acmart}
+?
+! Emergency stop.
+l.1 \documentclass
+[sigconf,nonacm]{acmart}
+No pages of output.
+Transcript written on main.log.
+
+[verbose]: tex 'main.tex' failed.
+[verbose]: We failed utterly to process the TeX file 'main.tex'
+[error]: Unable to sucessfully process tex files.
+*** AutoTeX ABORTING ***
+
+[verbose]: AutoTeX returned error: Unable to sucessfully process tex files.
+
+[verbose]: $autotex->process failed $@: $?: 0 $!: Inappropriate ioctl for device
+[verbose]: Error running AutoTeX process: 

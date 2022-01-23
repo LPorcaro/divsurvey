@@ -35,7 +35,7 @@
   <section id="header">
       <div class="container">
         <div class="justify-content-center align-self-center">
-          <h2> Diversity in Electronic Music. </h2>
+          <h2>|||| Perceptions of Diversity in Electronic Music</h2>
         </div>
       </div>
   </section>
@@ -48,44 +48,212 @@
       <div class="row justify-content-center align-self-center">
         <div class="col-md-6 intro-info order-md-first order-last">
 
-          This survey is part of the research on music diversity of <a href="https://lorenzoporcaro.wordpress.com/" target="_blank">Lorenzo Porcaro</a>, PhD student at the Universitat Pompeu Fabra.
-
-          If you choose to participate, you will discover some electronic music from all around the world! 
-
           <br><br>
-          <a href="{% url 'randomizer_en' %}" class="btn-get-started scrollto">Go to the survey</a><br>
+          <h2> Hi, </h2>
 
-          <br>
-
-          Esta encuesta es parte de la investigación sobre la diversidad musical realizada por Lorenzo Porcaro, un estudiante de doctorado de la Universitat Pompeu Fabra.
-
-          ¡Si decides participar, descubrirás un poco de música electrónica de todo el mundo!    
-          
+          if you have landed here, it means that you are interested in Electronic Music, Diversity, Music Recommender Systems or a combination of those.
           <br><br>
-          <a href="{% url 'randomizer_es' %}" class="btn-get-started scrollto"> Ir a la encuesta</a><br>
-
-
+          If so, you will find few insights from the work done on music recommendation diversity by <a href="https://lorenzoporcaro.com/" target="_blank">Lorenzo Porcaro</a>, PhD student at the Music Technology Group (UPF), in collaboration with <a href="https://emiliagomez.com/" target="_blank">Emilia Gómez</a> (Joint Research Center, European Commission) and <a href="https://chato.cl/" target="_blank">Carlos Castillo</a> (Web Science and Social Computing Group, UPF & ICREA).
+          <br><br>
+          The info in this page comes from two works published and to be presented soon: 
           <br>
-            Questa indagine fa parte della ricerca sulla diversitá musicale condotta da Lorenzo Porcaro, studente di dottorato della Universitat Pompeu Fabra.
+          ¬ Porcaro, L., Gómez, E., & Castillo, C. (2022). <b>Perceptions of Diversity in Electronic Music: the Impact of Listener, Artist, and Track Characteristics </b>. In CSCW ’22: ACM Conference on Computer-Supported Cooperative Work and Social Computing, November 12–16, 2022, Taipei, Taiwan.
+          <br>
+          ¬ Porcaro, L., Gómez, E., & Castillo, C. (2022). <b>Diversity in the Music Listening Experience: Insights from Focus Group Interviews</b>. In CHIIR ’22: ACM SIGIR Conference on Human Information Interaction and Retrieval, March 14–18, 2022, Regensburg, Bavaria.
+          <br><br>
+          You can read the preprint in <a href="https://arxiv.org/search/?searchtype=author&query=Porcaro%2C+L" target="_blank">arXiv</a> (together with other papers around these topics).
 
-            Partecipando, scoprirete un po' di musica elettronica da tutto il mondo!
-            <br><br>
-            <a href="{% url 'randomizer_it' %}" class="btn-get-started scrollto"> Vai all'inchiesta</a><br>
 
         </div>
-  
-        <div class="col-md-5 order-md-last order-first">
-          <div class="box">
-            <img src='{% static "img/pad2.jpg" %}' alt="" class="img-fluid">
-          </div>
-        </div>
-
       </div>
-
     </div>
   </section><!-- #intro -->
 
   <main id="main">
+
+
+
+    <!--==========================
+      Features Section
+    ============================-->
+    <section id="features">
+      <div class="container">
+
+        <div class="row feature-item">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src='{% static "img/pad2.jpg" %}' class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Perceptions of Diversity in Electronic Music: the Impact of Listener, Artist, and Track Characteristics.</h4>
+            <br>
+            <p>
+                Shared practices to assess the diversity of retrieval system (e.g. search engines, recommender systems) results are still debated in the Information Retrieval community, partly because of the challenges of determining <b>what diversity means in specific scenarios</b>, and of understanding how diversity is perceived by end-users. 
+            </p><p>
+                The field of Music Information Retrieval is not exempt from this issue. Even if fields such as Musicology or Sociology of Music have a long tradition in questioning the representation and the impact of diversity in cultural environments, <b>such knowledge has not been yet embedded into the design and development of music technologies</b>. 
+            </p>
+          </div>
+        </div>
+
+        <div class="row feature-item mt-5 pt-5">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src='{% static "img/dj2.jpg" %}' class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+              <p>
+                Focusing on electronic music, we investigate <b>the characteristics of listeners, artists, and tracks that are influential in the perception of diversity</b>. Specifically, we center our attention on 1) understanding the relationship between perceived diversity and computational methods to measure diversity, and 2) analyzing how listeners' domain knowledge and familiarity influence such perceived diversity. 
+            </p><p>
+                We design a user-study wherein <b>listeners are asked to compare pairs of lists of tracks and artists, and to select the most diverse list from each pair</b>. We compare participants’ ratings with results obtained through computational models built using audio tracks' features and artist attributes. 
+            </p><p>
+                We find that such models are generally aligned with participants' choices when most of them agree that one list is more diverse than the other. In addition, we observe how <b>differences in domain knowledge, familiarity, and demographics influence the level of agreement among listeners</b>, and between listeners and computational diversity metrics.
+            </p>
+          </div>
+          
+        </div>
+
+
+
+
+      </div>
+    </section><!-- #about -->
+
+
+    <!--==========================
+      Why Us Section
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+
+
+      <div class="container">
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">115</span>
+            <p>Participants</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">24</span>
+            <p>Lists</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1380</span>
+            <p>Annotations</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">47</span>
+            <p>Tracks</p>
+          </div>
+  
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!--==========================
+      Features Section
+    ============================-->
+    <section id="features">
+      <div class="container">
+
+        <div class="row feature-item">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src='{% static "img/divsur.png" %}' class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Diversity in the Music Listening Experience: Insights from Focus Group Interviews</h4>
+            <br>
+            <p>
+            Music listening in today's digital spaces is highly characterized by the availability of huge music catalogues, accessible by people all
+            over the world. In this scenario, recommender systems are designed to guide listeners in finding tracks and artists that best fit their requests, having therefore the <b>power to influence the diversity of the music they listen to</b>. 
+            </p>
+            <p>
+            Several works have proposed new techniques for developing diversity-aware recommendations, but little is known about how <b>people perceive diversity while interacting with music recommendations</b>. In this study, we interview several listeners about the role that diversity plays in their listening experience, trying to get a better understanding of how they interact with music recommendations. 
+            </p>
+            <p>
+            We recruit the listeners among the participants of our previous study, where they were confronted with the notion of diversity when asked to identify, from a series of electronic music lists, the most diverse ones according to their beliefs. As a follow-up, in this qualitative study we carry out semi-structured interviews to <b>understand how listeners may assess the diversity of a music list and to investigate their experiences with music recommendation diversity</b>. 
+            </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="testimonials">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Insights from Interviews</h3>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <div class="owl-carousel testimonials-carousel wow fadeInUp">
+
+              <div class="testimonial-item">
+                <h3>Leticia</h3>
+                <h4>Electronic Music Newcomer</h4>
+                <p>
+                This kind of prejudice or bias we have about music that we do not know is because we get to know it through the representations of what is considered to be.
+                </p>
+              </div>
+
+              <div class="testimonial-item">
+                <h3>Joan</h3>
+                <h4>Occasional Electronic Music listener</h4>
+                <p>
+                I realized while making the survey that I had a very strict definition about electronic music myself.
+                </p>
+              </div>
+
+              <div class="testimonial-item">
+                <h3>Jacqueline</h3>
+                <h4>Electronic Music Enthusiast</h4>
+                <p>
+                I can feel like I can make a better decision of what is diverse, but then there is kind of a bias that comes based on the fact that I like this music a lot.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <h3>Alberto</h3>
+                <h4>Occasional Electronic Music listener</h4>
+                <p>
+                The electronic music artists that I went to listen to and that I liked before participating in the survey were predominantly white male, which I suppose is still what is predominant in the industry to some extent but definitely it is not the only thing.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <h3>Anna</h3>
+                <h4>Skeptic listener</h4>
+                <p>
+                Taking that plunge into something new is really hard, and I do not know if music recommender systems could bridge that barrier of making it more attractive.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <h3>Andrew</h3>
+                <h4>Newcomer to EDM</h4>
+                <p>
+                I never liked EDM but algorithms presented to me different tracks, and I found myself listening to it, and noticing the differences within this genre. In the end, I started listening to it more often.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #testimonials -->
+
 
     <!--==========================
       Services Section
@@ -94,7 +262,7 @@
       <div class="container">
         <br>
         <header class="section-header">
-          <h3>Discover / Descubre / Scopri </h3><br>
+          <h3>Discover</h3><br>
         </header>
 
         <div class="row">
@@ -103,14 +271,14 @@
             <div class="box">
               <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="https://www.youtube.com/playlist?list=PLO_ftEbUcr_exmEWO1Y8EYEEcK6jwlwdJ" target="_blank">YouTube</a></h4>
-              <p class="description">Listen again to the tracks shown in the survey in YouTube.</p>
+              <p class="description">Listen to the survey's tracks in YouTube.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.2s">
             <div class="box">
               <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
               <h4 class="title"><a href="https://open.spotify.com/playlist/1WAdvDkS6JNKcGlmseLXJC?si=YKt5h2FUQoOn6HNK0CT9Gg" target="_blank">Spotify</a></h4>
-              <p class="description">Listen again to the tracks shown in the survey in Spotify.</p>
+              <p class="description">Listen to the survey's tracks in Spotify.</p>
             </div>
           </div>
 
@@ -118,7 +286,7 @@
             <div class="box">
               <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
               <h4 class="title"><a href="https://soundcloud.com/plorenzzz/sets/diversity-in-electronic-music" target="_blank">SoundCloud</a></h4>
-              <p class="description">Listen again to the tracks shown in the survey in SoundCloud.</p>
+              <p class="description">Listen to the survey's tracks in in SoundCloud.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.2s">
@@ -150,6 +318,8 @@
     </section><!-- #services -->
 
 
+
+
     <!--==========================
       Frequently Asked Questions Section
     ============================-->
@@ -160,14 +330,6 @@
         </header>
 
         <ul id="faq-list" class="wow fadeInUp">
-          <li>
-            <a data-toggle="collapse" class="collapsed" href="#faq1">During the survey, do I have to listen to the tracks entirely?<i class="ion-android-remove"></i></a>
-            <div id="faq1" class="collapse" data-parent="#faq-list">
-              <p>
-                Not necessarily. Feel free to go forward and backward in the lists, behaving like you normally do when you listen to music.
-              </p>
-            </div>
-          </li>
 
           <li>
             <a data-toggle="collapse" href="#faq2" class="collapsed"> How have you selected the tracks and artists shown in the survey? <i class="ion-android-remove"></i></a>
